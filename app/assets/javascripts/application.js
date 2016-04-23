@@ -18,7 +18,34 @@
 //= require rotate
 //= require_tree .
 
+
+
+
+
+
+
+
+
+
 $(function() {
+
+
+$(window).load(function(){
+   function show_popup(){
+
+    $('#box_pic1').fadeOut(5000);
+
+
+
+
+
+   };
+   window.setTimeout( show_popup, 1000 ); // 5 seconds
+});
+
+
+
+
 
 var angle = 0;
 setInterval(function(){
