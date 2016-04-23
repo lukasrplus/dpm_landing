@@ -5,6 +5,10 @@ body {
   background-image: url(https://s3.eu-central-1.amazonaws.com/papiermanufaktur/bg/pattern_mini1_200.png);
 }
 
+.container {
+  max-width: 1000px !important;
+}
+
 .landing-registration {
   background-color: white;
   height:100%;
