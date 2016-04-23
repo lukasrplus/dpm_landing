@@ -15,6 +15,10 @@ body {
   margin-top: 30px;
 }
 
+.pswp__bg {
+  background-color: white !important;
+}
+
 .landing-registration {
   background-color: white;
   height:515px;
@@ -64,7 +68,7 @@ body {
   background: white;
   width:100%;
   height:515px;
-  padding: 0px 30px;
+  padding: 0px 15px;
 }
 
 
@@ -83,7 +87,7 @@ body {
 }
 .my-simple-gallery figure {
 
-  padding: 15px;
+  padding: 10px;
 
 }
 .my-simple-gallery figcaption {
