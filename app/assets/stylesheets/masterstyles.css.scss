@@ -6,13 +6,41 @@ body {
 }
 
 .container {
-  max-width: 1000px !important;
+  max-width: 790px !important;
+
+}
+
+.borderly {
+  border: 30px solid white;
+  margin-top: 30px;
 }
 
 .landing-registration {
   background-color: white;
-  height:100%;
+  height:515px;
   margin-top: -60px;
+  padding: 0px;
+}
+
+.open_slideshow {
+
+}
+
+  .hidden_gallery {
+    display: none;
+  }
+
+@media(max-width: 768px) {
+  .landing-registration {
+    height: 515px;
+  }
+
+  .open_slideshow {
+    margin-top: 110px;
+  }
+
+
+
 }
 
 .brand-logo {
@@ -34,9 +62,16 @@ body {
   position:relative;
   background: white;
   width:100%;
-  height:500px;
+  height:515px;
   padding: 0px 30px;
 }
+
+
+
+
+
+
+
 .my-simple-gallery {
   width: 100%;
   float: left;
