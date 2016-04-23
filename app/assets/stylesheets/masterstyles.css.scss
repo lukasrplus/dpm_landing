@@ -1,0 +1,51 @@
+
+
+
+body {
+  background-image: url(https://s3.eu-central-1.amazonaws.com/papiermanufaktur/bg/pattern_mini1_200.png);
+}
+
+.landing-registration {
+  background-color: white;
+  height:100%;
+  margin-top: -60px;
+}
+
+.brand-logo {
+  width: 130px;
+  padding: 15px;
+  background-color: white;
+  margin-top: 60px;
+  z-index: 100000;
+  position: relative;
+}
+
+.brand-logo-box {
+
+
+}
+
+
+.gallery-container {
+  position:relative;
+  background: white;
+  width:100%;
+  height:500px;
+  padding: 0px 30px;
+}
+.my-simple-gallery {
+  width: 100%;
+  float: left;
+}
+.my-simple-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-simple-gallery figure {
+
+  padding: 15px;
+
+}
+.my-simple-gallery figcaption {
+  display: none;
+}
