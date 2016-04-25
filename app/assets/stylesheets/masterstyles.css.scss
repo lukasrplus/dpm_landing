@@ -12,6 +12,17 @@ body {
 //   z-index: 99;
 // }
 
+.brand-logo {
+  width: 120px;
+  padding: 10px;
+  background-color: white;
+  z-index: 10000;
+  position: fixed;
+margin: 5% auto; // Will not center vertically and won't work in IE6/7.
+left: 0;
+right: 0;
+}
+
 .container {
   max-width: 790px !important;
 
@@ -33,7 +44,7 @@ body {
 
 .borderly {
   border: 0px solid white;
-  margin-top: 0px;
+  margin-top: 130px;
 }
 
 .pswp__bg {
@@ -42,13 +53,13 @@ body {
 
 .landing-registration {
   background-color: white;
-  height:515px;
-  margin-top: -60px;
+  min-height:515px;
+  height: 100%;
   padding: 0px;
 }
 
 .open_slideshow {
-
+  top: 60px;
 }
 
   .hidden_gallery {
@@ -76,14 +87,7 @@ body {
 
 }
 
-.brand-logo {
-  width: 120px;
-  padding: 10px;
-  background-color: white;
-  margin-top: 60px;
-  z-index: 10000;
-  position: relative;
-}
+
 
 .brand-logo-box {
 text-align: center;
